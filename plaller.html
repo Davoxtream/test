@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://html5players.mexiserver.com/1/css/icast.min.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<div class="icast" id="stream1"></div>
+<script src="https://html5players.mexiserver.com/1/js/icast.min.js"></script>
+<script>
+    $("#stream1").icast({
+     URL: "http://95.217.83.110:8004",
+  version: "2",  
+  show_listeners: true,
+  logo: "https://i.imgur.com/6kmxTNn.jpg",
+                autoplay: true,            
+    })
+</script>
+</body>
+</html>
